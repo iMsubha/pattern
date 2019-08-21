@@ -1,0 +1,27 @@
+/*
+1
+12
+123
+*/
+
+#include <stdio.h>
+
+int main()
+{
+    int r, c, s,n;
+    printf("Enter a number:");
+    scanf("%d",&n);
+
+    for (r=0; r<n; r++) {
+        /* code */
+        s=1;
+        for(c=0; c<r+1; c++){
+            
+            printf("%d", s);
+            s++;
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
